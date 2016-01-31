@@ -1,18 +1,32 @@
-#notification
-.message {
-    background: beige;
-    padding: 0.5em 0.75em;
-    border: 2px solid #f2f2f2;
+html {
+    
+    header {
+    background: #e67e22;
+    padding: 30px 10%;
+    margin-bottom: 20px;
 }
-#notification:before {
-    content: "!";
-    font-size: 4em;
-    margin-right: 5px;
-    color: green;
+.left
+article,
+.right {
+    background: #8e44ad;
+    float: left;
+    margin-right: 4%;
 }
-.message {
-    font-family: Georgia;
-    font-size: 3em;
-    line-height: 2;
-    font-weight: 600;
+    body {
+        max-width: 100%
+    }
+.left
+    article
+.right {
+    width: 18%;
 }
+article {
+    width: 56%;
+}
+.right {
+    margin-right: 0;
+}
+    footer {
+        clear: left;
+        padding: 
+    }
